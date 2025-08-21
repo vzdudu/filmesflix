@@ -40,7 +40,7 @@ p {
     gap: 10px;
 }
 
-section {
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
@@ -48,11 +48,12 @@ section {
 
 .categoria-videos img {
     opacity: 0.5;
+    heigth: 200px;
 }
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 1px solid green;
+    border: 3px solid green;
 }
 
 .categoria h2 {
