@@ -2,6 +2,8 @@ body {
     color:white;
     background: black;
     margin: 0px;
+      font-family: "Chakra Petch", sans-serif;
+      margin-bottom: 100px;
 }
 
 header {
@@ -11,8 +13,8 @@ header {
     color: rgb(42, 122, 228);
 }
 
-section {
-    background rgb(184,156,213);
+.chamada {
+    background: rgb(184,156,213);
     padding: 80px;
     padding: 80px;
     display: flex;
@@ -20,5 +22,39 @@ section {
 }
 
 .chamda-texto {
-    margin-right: 20px;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x:auto;
+    gap: 10px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color:rgb(42, 122, 228);
 }
